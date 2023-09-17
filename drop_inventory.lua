@@ -6,7 +6,7 @@ BAUBLES = 1
 EQUIPEMENT = 2
 INVENTORY = 3
 
-function drop() do
+function drop()
     for i=1,storage.size() do
         for ii=1,storage[i].size() do
             storage[i][ii].drop()
