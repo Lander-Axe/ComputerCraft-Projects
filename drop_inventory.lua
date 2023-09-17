@@ -1,6 +1,6 @@
 modules = peripheral.find("neuralInterface")
 
-storage = {modules.getBaubles(), modules.getEquipement(), modules.getInventory()}
+storage = {modules.getBaubles(), modules.getEquipment(), modules.getInventory()}
 
 BAUBLES = 1
 EQUIPEMENT = 2
